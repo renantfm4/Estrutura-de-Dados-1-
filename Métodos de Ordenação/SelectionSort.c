@@ -7,8 +7,8 @@ void selecao(int Vet[], int n){
 	
 	for (int i=0;i<n-1;i++){
 		Menor=i;
-		for (int j=i+1;j<n;j++){ // Como não precisa comparar um valor que já está ordenado, 
-		//pula pra proxima posiçao usando i+1
+		for (int j=i+1;j<n;j++){ // Como nÃ£o precisa comparar um valor que jÃ¡ estÃ¡ ordenado, 
+		//pula pra proxima posiÃ§ao usando i+1
 			if(Vet[Menor]>Vet[j])
 				Menor=j;
 			}

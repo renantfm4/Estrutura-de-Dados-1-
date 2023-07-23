@@ -25,10 +25,10 @@ Municipio lerMunicipio(FILE *arq) {
 }
 
 void mostrarInformacoes(Municipio municipio) {
-    printf("MunicÌpio: %s\n", municipio.Municipio);
+    printf("Munic√≠pio: %s\n", municipio.Municipio);
     printf("UF: %s\n", municipio.UF);
-    printf("Regi„o: %s\n", municipio.Regiao);
-    printf("PopulaÁ„o em 2010: %s\n", municipio.Populacao2010);
+    printf("Regi√£o: %s\n", municipio.Regiao);
+    printf("Popula√ß√£o em 2010: %s\n", municipio.Populacao2010);
     printf("Porte: %s\n", municipio.Porte);
 }
 
@@ -56,12 +56,13 @@ int main() {
     }
     
     if (feof(arq)) {
-        printf("MunicÌpio n„o encontrado.\n");
+        printf("Munic√≠pio n√£o encontrado.\n");
     }
     
     fclose(arq);
     
     return 0;
 }
+
 
 
